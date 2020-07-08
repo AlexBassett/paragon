@@ -1,0 +1,52 @@
+planet Paragon 8
+# Maybe in durax
+#station4 sprite
+#use pipes landscape
+attributes uninhabited paragon  "requires: t1 Salvage"
+description 'Paragon 8 is a colony station from the days before the Republic, the "Dark Ages." Little is known of the Paragon corporation other than that they failed spectacularly in their attempts to colonize border worlds, with many stations going dark for no discernable reason. Abandoned hundreds of years ago, this specific station appears to have taken damage from some form of rail gun, with small circular holes coating the outsides.`
+spaceport 'The docking area is exceptionally small, barely accomadating your ship, with a small atrium leading to airlock doors. There is nothing to do other than draw from ancient fuel stores, as all airlocks are sealed tight. A sign in the central atrium reads: "Condemned Area - January 22, 2578 - Paragon Exploration accepts no liability from personal harm resulting from disregard of this notice." `
+#alternate description after quest: spaceport 'The docking area is exceptionally small, barely accomadating your ship, with a small atrium leading to airlock doors.  A sign in the central atrium reads: "Condemned Area - January 22, 2578 - Paragon Exploration accepts no liability from personal harm resulting from disregard of this notice." A single path is clear, bashed open by you.`
+
+planet Paragon 12
+#paradise worlds or  fw space station5
+#use oldtech landscape
+attributes uninhabited paragon  
+description `Paragon 12 is a colony station from the "Dark Ages" before the Republic formed. The mysterious Paragon Corporation spread many similar stations across the galaxy,  with little known of their history other than their fall from grace. This station looks to have been a frequent recipient of pirate attacks, with many reinforcments and patches covering its hull. This particular station was highly successfull, eventually being retired after hundreds of years of active service. Small groups still inhabit it, keeping the systems running and welcoming travellers to stop and refuel.`
+spaceport `The docking bay has been retrofitted over time to accomodate multiple ships at once. Airlocks branch off in almost every direction, leading to the station's facilities. Every surface looks worn down, even the Paragon logos on the wall have faded to barely an outline.`
+
+planet Paragon 5
+#normal sprite in Dirt belt station - station 2kd sprite
+#use spook landscape
+attributes uninhabited paragon
+description `Paragon 5 is a research station of the long defunct Paragon Explorations Corporation. As the one of the few stations left in the Dirt belt, it has been continually salvaged to the point that it is neither safe to land on or live in. Despite the twin dangers of collapse and pirate raids, salvage operations continue, stripping the station from the inside out.`
+spaceport `Once you dock, you notice that practically every surface has been stripped of electronics. The salvage has gone far enough to remove all airlock doors, leaving only a single door between you and the vacuum of space. Workers seem blissfully ignorant of this danger, hauling loads of scrap to a large central container.`
+
+planet Paragon 16 
+attributes uninhabited paragon "requires: t1 Salvage"
+#kor station sprite station3k
+#use cool landscape
+description ` Paragon 16, is the last documented station from the ill-fated Paragon Explorations. The strange design of the station feels both outdated and cutting edge, with all ceilings slightly too low to be comfortable, all docks sized for unfamiliar ships. Among merchants and travelers, the station has become taboo to visit, with many viewing it as haunted and unlucky. This reputation has led to the station being mostly untouched for the last 400 years.`
+spaceport `The Dock of Paragon 16 is red, exceptionally so. Despite the stations little use, all metal in the station is the color of deep rust. You hear echos of machinery from down the halls, clanking and whirring away eerily. All light sources in the station are muted reds and grays, lending a dark glow to the curves and angles of the rooms.`
+
+planet Paragon 1
+#in a syndicate uninhabited, use Station7 sprite
+#use space2 landscape
+attributes syndicate
+description `Whereas its name would have you believe Paragon 1 is the first Paragon station, it is not. Paragon 1 was the jewel of the Paragon stations, with lavish accomidations and office space for the most important executives of the corporation. It gained the number 1 due to its place as the communication and intelligence hub of all Paragon expeditions. While the company is legally defunct,  the Syndicate maintains the station, with many theorising that it is a covert operations center. You are not allowed to enter the main station, with only emergency refueling allowed for outsiders with enough money.`
+spaceport  `The spaceport of Paragon 1 is truly a port, with adaptions to fit nearly a hundred ships.The only evidence this station was not a Syndicate creation is the large Paragon logo etched into the floor at the main airlock. Standing near every airlock, armed mercenaries sit and wait, opening only for automated cargo transports, if you were to leave your ship, you have no doubt they would shoot without hesitation.`
+
+
+planet Paragon 13
+#border world, maybe far south or around the NU - station2k sprite
+#use station3 landscape
+attributes uninhabited Paragon "requires: t2 Salvage"
+description `Paragon 13, known jokingly to merchants as "the fixer" is the only fully automated shipyard in human space. Paragon Explorations was contracted to make this near the end of their lifetime, by an unknown party, wishing to begin their own ship brand. The colossal machine has a single small spaceport on top, the rest of the machine occupied by the shipyard. Not much is known of the machine, except that ships entering for automated repairs exit as a cloud of scrap metal.`
+spaceport `The tiny spaceport has twin airlocks, one leading to living quarters for mechanics. the other door is locked, leading to a control room.`
+#alternate: spaceport `The tiny spaceport has twin airlocks, one leading to living quarters for mechanics. the other door, formally locked, leads to the shipyard control room.`
+
+planet Paragon 4
+#dirt belt, use station6 sprite
+#use hangar1 landscape
+attributes uninhabited Paragon "requires: t2 Salvage"
+description `Paragon 4 is the first contracted station made by Paragon Explorations. It was a stationary deployment platform from which corporations could wage war, training and equipping armies. By the time of the Republic's formation, it had been seized multiple times in small turf wars, eventually being decomissioned and locked down after an unknown incedent. Due to legal disputes over ownership, it lies untouched, a testament to the fear and hatred of the Dark ages, holding its arsenal secure until the next person takes it.`
+spaceport 	`Unlike the rest of Paragon's stations, the docking bay of Paragon 4 is massive, filled with hundreds of derelict fighters and warships from the last Alpha war. A large faded banner across the ceiling reads "Republic Official lockdown area, minimum sentence 5 years prison/$5 million fine for any persons found entering the station."

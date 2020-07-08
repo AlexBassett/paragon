@@ -1,0 +1,44 @@
+mission "P8 dock"
+	name "Paragon 8 Landing"
+	landing
+	source Paragon 8
+	to offer
+		require "Amateur Salvage tools"
+	source Paragon 8
+	on offer
+		conversation
+			`As you dock with the derelict station, something catches your eye, an small open gap in one of the airlocks, leading to the inside. It could be pried open with your salvage tools. Do you investigate?`
+				choice
+					`(Leave the airlock alone)`
+						decline
+					`(Bash open airlock)`
+			`After a thorough bashing with your crowbar, the airlock yields. As you continue through, emergency lights flicker on, granting a dull green tone to the hall. You can faintly hear a noise start with the rest of the power.`
+			`Walking down the passageway, you observe corroded holes peppering the walls, as if they were pierced by a large needle. Ancient stains patch the floor, brown and sticky on your feet. A sign reveals this to be a housing and recreation zone of the station, but no signs of any life are present. At the end of the passageway, a normal door lies in front of you, strange sounds playing behind it.`
+				choice
+					`(Turn back)`
+						decline
+					`(Continue through)`		
+			`In the small room, you find a miraculously functioning terminal, with a looping audio log. The terminal reads: "Operational Announcement 12/27/2576 - Chief Technical Officer J. Anderson - They have breached the hull, and will reach the cargo zone within the hour, once the evacuation shuttles are prepped the station will be entirely abandoned, all occupants must proceed to Paragon 2 for their temporary relocation. If you can hear this message, leave the station immediatly."`
+			`Another doorway leads further into the bowels of the station.`
+				choice
+					`(Return to your ship)`
+						decline
+					`(Continue through)`
+			`Continuing for what feels like miles, you walk through dimly lit halls searching for rooms of interest, you finally reach a fork in the path.`
+			`The first door, locked, reads "TOXIC RADIATION HAZARD, DO NOT ENTER, INSTANT DEATH" The second reads "Paragon data storage"`
+				choice
+				`(Use crowbar to enter the "TOXIC INSTANT DEATH" room)`
+				goto rad
+				`(Enter the documentation room)`
+			`The documentation room is in complete disarray. Physical files are scattered everywhere, all rendered useless by moisture in the air. The walls are dotted with corroded holes, many more than any other area, it is as if this room was targeted by whoever attacked the station. Under a pile of moldering tax forms, you find a small data chip, which you record to your log.`
+			`As this is the end of the hall, you return to your ship and leave the station.`
+				launch
+			label rad
+			`The door again yields to the power of the crowbar, but as you step through the door, you see a blue flash, and it all fades to black.`
+			`As you lie dying, you wonder "Why did I come in here? The door said INSTANT DEATH."`
+				die
+	on complete
+		log `I explored a station of the Paragon corporation, collecting a document titled "Back to the roots: the origins of Paragon Explorations" the 
+				
+No
+

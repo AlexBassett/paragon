@@ -1,0 +1,119 @@
+ship "Reaver"
+	sprite "ship/reaver"
+	thumbnail "thumbnail/reaverthumb"
+	attributes
+		category "Cruiser"
+		"cost" 8000000
+		"shields" 15000
+		"hull" 5500
+		"hull repair rate" .1
+		"landing gear" 1
+		"required crew" 30
+		"bunks" 64
+		"mass" 1500
+		"drag" 7.6
+		"heat dissipation" .5
+		"fuel capacity" 500
+		"cargo space" 80
+		"outfit space" 620
+		"weapon capacity" 240
+		"engine capacity" 120
+		"atmosphere scan" 10
+		weapon
+			"blast radius" 80
+			"shield damage" 800
+			"hull damage" 400
+			"hit force" 1200
+	outfits
+		"Particle Cannon" 2
+		"Gatling Turret" 3
+		"Proton Turret" 2
+		"Anti-Missile Turret" 2
+		"Gatling Gun Ammo" 36000
+		"Fusion Reactor"
+		"LP144a Battery Pack"
+		"D14-L Shield Generator"
+		"Liquid Helium Cooler"
+		"Laser Rifle" 13
+		"Plasma Pistol" 30
+		
+		"X3700 Ion Thruster"
+		"X4200 Ion Steering"
+		"Hyperdrive"
+		
+	turret -9 5
+	turret 5.5 21
+	turret 23 92.5
+	turret 22.5 113
+	turret -19.5 116
+	turret 14 -106.5
+	turret -7.5 -92.5
+	gun 9.5 -163
+	gun -10 -163.5
+	engine 14.5 166.5
+	engine -12 167
+	leak "flame" 30 80
+	leak "big leak" 60 30
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion large"
+	description " Composed of the hulls of many different ships, the Reaver is certainly a sight to behold. The Paragon 13 station is the only producer of this strange design, utilizing Dark Age construction methods coupled with modern ship standards. The design was initially for a colony ship, but the insane AI of the station twisted it into a warship."
+
+ship "Corsair"
+	sprite "ship/corsair"
+	thumbnail "thumbnail/corsairthumb"
+	attributes
+		category "Destroyer"
+		"cost" 4100000
+		"shields" 7500
+		"hull" 3500
+		"required crew" 10
+		"bunks" 25
+		"mass" 400
+		"drag" 4.5
+		"heat dissipation" .6
+		"fuel capacity" 400
+		"cargo space" 20
+		"outfit space" 450
+		"weapon capacity" 175
+		"engine capacity" 110
+		"self destruct" .25
+		"atmosphere scan" 10
+		weapon
+			"blast radius" 110
+			"shield damage" 1100
+			"hull damage" 550
+			"hit force" 1650
+	outfits
+		"Plasma Cannon" 3
+		"Gatling turret" 2
+		"Gatling Gun Ammo" 24000
+		"Heavy Anti-Missile Turret"
+		"Fusion Reactor"
+		"Supercapacitor"
+		"S-970 Regenerator"
+		"Liquid Helium Cooler"
+		"Outfits Expansion"
+		"Laser Rifle" 25
+		
+		"A250 Atomic Thruster"
+		"A525 Atomic Steering"
+		"Hyperdrive"
+	
+	turret -14 4
+	turret -0.5 75
+	turret 0 -62.5
+	engine -28 127
+	engine -8.5 124
+	engine 11.5 125.5
+	gun 16.5 -76.5
+	gun -9.5 -117
+	gun 9 -118
+	explode "tiny explosion" 18
+	explode "small explosion" 36
+	explode "medium explosion" 24
+	explode "large explosion" 8
+	"final explode" "final explosion medium"
+	description "By the looks of the modification that have taken place, you suspect that this ship contains no original parts. With extra shield emitters, hull plating, and outfit space, this half-millennium-old design is finding new life with its heavy modification."
